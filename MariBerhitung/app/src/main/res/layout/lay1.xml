@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".lay1">
+
+    <ImageView
+        android:id="@+id/soal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ib_0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        app:srcCompat="@drawable/gb1" />
+
+    <ImageButton
+        android:id="@+id/ib_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tiga"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/but_next"
+        android:layout_alignLeft="@+id/but_next"
+        android:layout_alignStart="@+id/but_next" />
+
+    <ImageButton
+        android:id="@+id/ib_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/delapan"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignTop="@+id/ib_3"
+        android:layout_toLeftOf="@+id/ib_0"
+        android:layout_toStartOf="@+id/ib_0" />
+
+    <ImageButton
+        android:id="@+id/ib_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="77dp"
+        app:srcCompat="@drawable/nol"
+        android:layout_alignBottom="@+id/ib_8"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/but_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="NEXT"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ib_0"
+        android:layout_toEndOf="@+id/ib_0"
+        android:layout_marginBottom="44dp" />
+
+    <TextView
+        android:id="@+id/salahbenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/but_next"
+        android:layout_alignLeft="@+id/ib_8"
+        android:layout_alignStart="@+id/ib_8"
+        android:layout_marginBottom="11dp"
+        android:text="salahbenar" />
+
+
+</RelativeLayout>

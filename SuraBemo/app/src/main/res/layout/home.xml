@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent">
+
+    <com.fathur.surabemo.CustomTextView
+        android:id="@+id/customTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Selamat datang\ndi Aplikasi SuraBemo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:font="font5.ttf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginTop="-30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:padding="-10dp"
+            android:src="@drawable/unnamed" />
+
+    </LinearLayout>
+
+    <com.fathur.surabemo.CustomTextView
+        android:id="@+id/customTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Apa sih SuraBemo?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:font="font5.ttf" />
+
+    <com.fathur.surabemo.CustomTextView
+        android:id="@+id/customTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:padding="15dp"
+        android:text="\t\t\tSuraBemo adalah sebuah Aplikasi untuk cari tau rute Bemo (lyn) di Kota Surabaya.
+        \n\t\t\t\nSelamat BerBemo ria!"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:font="font7.ttf" />
+
+</LinearLayout>

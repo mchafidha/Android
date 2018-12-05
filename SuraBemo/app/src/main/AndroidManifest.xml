@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fathur.surabemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:minSdkVersion="4"
+        android:targetSdkVersion="24" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/surasplashsmall"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"></activity>
+        <activity
+            android:label="Rute Bemo Surabaya"
+            android:name=".ListActivity"></activity>
+        <activity
+            android:label="Pantau Daftar Penumpang "
+            android:name=".RutePensS"></activity>
+        <activity
+            android:label="Rute Menuju PENS"
+            android:name=".RutePens"></activity>
+        <activity
+            android:label="Rute Khusus"
+            android:name=".RuteKhusus"></activity>
+        <activity
+            android:label="Pantau Penumpang"
+            android:name=".RuteSupir"></activity>
+        <activity
+            android:label="Surabemo"
+            android:name=".LoginAs"></activity>
+        <activity
+            android:label="Surabemo"
+            android:name=".LoginActivity"></activity>
+    </application>
+
+</manifest>
